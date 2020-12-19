@@ -1,0 +1,18 @@
+.tag-list {
+  // Clear default list styles
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  li {
+    color: var(--minor-color);
+  }
+
+  li + li {
+    margin-left: 0.25rem;
+  }
+}

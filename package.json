@@ -1,0 +1,70 @@
+{
+  "name": "luyu-blog-source",
+  "private": true,
+  "description": "The source code and data of Luyu Cheng’s blog.",
+  "version": "0.1.0",
+  "author": "Luyu Cheng <luyu@hey.com>",
+  "dependencies": {
+    "gatsby": "^2.24.85",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-catch-links": "^2.5.0",
+    "gatsby-plugin-feed": "^2.5.19",
+    "gatsby-plugin-manifest": "^2.4.35",
+    "gatsby-plugin-offline": "^3.2.37",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sass": "^2.3.21",
+    "gatsby-plugin-sharp": "^2.6.43",
+    "gatsby-remark-custom-blocks": "^2.6.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^3.3.39",
+    "gatsby-remark-katex": "^3.3.14",
+    "gatsby-remark-numbered-footnotes": "^1.0.1",
+    "gatsby-remark-prismjs": "^3.5.16",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-ruby": "^0.1.0",
+    "gatsby-source-filesystem": "^2.3.35",
+    "gatsby-transformer-remark": "^2.8.46",
+    "gatsby-transformer-sharp": "^2.5.19",
+    "katex": "^0.12.0",
+    "normalize.css": "^8.0.1",
+    "prismjs": "^1.22.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-photo-gallery": "^8.0.0",
+    "sass": "^1.29.0",
+    "transliteration": "^2.1.11"
+  },
+  "devDependencies": {
+    "plop": "^2.7.4",
+    "prettier": "^2.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  }
+}

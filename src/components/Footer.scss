@@ -1,0 +1,30 @@
+.Footer__footer {
+  background: var(--theme-color);
+  box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  .copyright {
+    margin: 0.125em auto;
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgb(88, 96, 105);
+    transition: color 150ms ease-in-out;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    &:hover {
+      color: var(--major-color);
+    }
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+}

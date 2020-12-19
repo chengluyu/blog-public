@@ -1,0 +1,10 @@
+$content-font-family: rubik, "Rubik";
+$monospaced-font: code-saver, "Code Saver";
+$western-font-fallback-list: $content-font-family, -apple-system,
+  BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans",
+  "Helvetica Neue";
+
+$sans-serif: $western-font-fallback-list, "PingFang SC", "Source Han Sans SC",
+  "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+$monospaced: $monospaced-font, "SF Mono", "Menlo", "Consolas", "Courier New",
+  Courier, monospace;
